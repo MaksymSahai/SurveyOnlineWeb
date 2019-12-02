@@ -1,28 +1,30 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { RouterModule } from '@angular/router';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-import { Routes, RouterModule } from '@angular/router';
-import { ValueListComponent } from './Modules/value-list/value-list.component';
-import { HeaderComponent } from './Modules/header/header.component';
-import { FooterComponent } from './Modules/footer/footer.component';
-import { BannerComponent } from './Modules/banner/banner.component';
-import { MenuComponent } from './Modules/menu/menu.component';
-import { HomeComponent } from './Modules/home/home.component';
-import { RegistrationComponent } from './Modules/registration/registration.component';
-import { LoginComponent } from './Modules/login/login.component';
-import {  ReactiveFormsModule } from '@angular/forms';
-import { JwtInterceptor, ErrorInterceptor } from './Helpers';
-import { AboutusComponent } from './Modules/aboutus/aboutus.component';
-import { HowitComponent } from './Modules/howit/howit.component';
-import { FaqComponent } from './Modules/faq/faq.component';
-import { FeedbackComponent } from './Modules/feedback/feedback.component';
-import { SurveylistComponent } from './Modules/surveylist/surveylist.component';
+
+import { ValueListComponent } from '@components/value-list/value-list.component';
+import { HeaderComponent } from '@components/header/header.component';
+import { FooterComponent } from '@components/footer/footer.component';
+import { BannerComponent } from '@components/banner/banner.component';
+import { MenuComponent } from '@components/menu/menu.component';
+import { HomeComponent } from '@components/home/home.component';
+import { RegistrationComponent } from '@components/registration/registration.component';
+import { LoginComponent } from '@components/login/login.component';
+import { AboutusComponent } from '@components/aboutus/aboutus.component';
+import { HowitComponent } from '@components/howit/howit.component';
+import { FaqComponent } from '@components/faq/faq.component';
+import { FeedbackComponent } from '@components/feedback/feedback.component';
+import { SurveylistComponent } from '@components/surveylist/surveylist.component';
+import { SurveydetailComponent } from '@components/surveydetail/surveydetail.component';
+
 import { AuthenticationService } from './Services/authentication.service';
 import { SurveyService } from './Services/survey.Service';
-import { SurveydetailComponent } from './Modules/surveydetail/surveydetail.component';
+import { JwtInterceptor, ErrorInterceptor } from './Helpers';
 
 
 @NgModule({

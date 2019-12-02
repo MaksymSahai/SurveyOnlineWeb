@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { ValueListComponent } from './Modules/value-list/value-list.component';
-import { HomeComponent } from './Modules/home/home.component';
-import { RegistrationComponent } from './Modules/registration/registration.component';
-import { LoginComponent } from './Modules/login/login.component';
+import { ValueListComponent } from '@components/value-list/value-list.component';
+import { HomeComponent } from '@components/home/home.component';
+import { RegistrationComponent } from '@components/registration/registration.component';
+import { LoginComponent } from '@components/login/login.component';
+import { AboutusComponent } from '@components/aboutus/aboutus.component';
+import { HowitComponent } from '@components/howit/howit.component';
+import { FaqComponent } from '@components/faq/faq.component';
+import { FeedbackComponent } from '@components/feedback/feedback.component';
+import { SurveylistComponent } from '@components/surveylist/surveylist.component';
+import { SurveydetailComponent } from '@components/surveydetail/surveydetail.component';
 import { AuthGuard } from './Helpers';
-import { AboutusComponent } from './Modules/aboutus/aboutus.component';
-import { HowitComponent } from './Modules/howit/howit.component';
-import { FaqComponent } from './Modules/faq/faq.component';
-import { FeedbackComponent } from './Modules/feedback/feedback.component';
-import { SurveylistComponent } from './Modules/surveylist/surveylist.component';
-import { SurveydetailComponent } from './Modules/surveydetail/surveydetail.component';
 
 
 const routes: Routes = [
