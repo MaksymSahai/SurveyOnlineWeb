@@ -1,0 +1,1 @@
+- Implement code-formatting tool for `.css`, `.html`, `.js` files ([Prettier](https://prettier.io/));  
