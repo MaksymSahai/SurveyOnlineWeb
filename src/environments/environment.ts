@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  UrlApi: 'http://localhost:49976/api'
+  UrlApi: 'https://surveyonlinecorewebapi.azurewebsites.net/api'
 };
 
 
